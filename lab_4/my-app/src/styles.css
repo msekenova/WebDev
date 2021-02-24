@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	font-family: Serif;
+}
+.body {
+	margin: 30px;
+}
+h1 {
+	background-color: #E5F2F0;
+	padding: 10px;
+
+}
+.photo {
+	margin: 0 0 0 25px;
+	padding: 10px;
+}
+.item {
+  	width: 40%;
+  	float: left;
+  	height: 400px;
+  	margin: 40px 40px 0;
+}
+a {
+	text-decoration: none;
+}
+.name {
+	margin: 0 25px;
+	padding: 5px;
+	font-size: 24px;
+	color: #aca9d2;
+}
+
+#description {
+	margin: 0 25px;
+	padding: 10px;
+	height: 50px
+}
+#rating {
+	font-size: 20px;
+	margin: 0 20px 0 50px;
+	padding: 10px;
+	display: inline-block;
+	color: #FFD700;
+	border-color: #4c4000;
+
+}
+ngb-rating  {
+	color: #FFD700;
+	font-size:24px;
+	margin: 5px 25px;
+	padding: 10px;
+	border-color: #ffffff;
+}
+#button {
+	margin: 0 25px;
+	padding: 10px 15px; 
+	display: inline-block;
+	border-radius: 18px;
+	background-color: white; 
+	color: black;
+	border: 2px solid #E5F2F0; 
+}
+#button:hover {
+	margin: 0 25px;
+	padding: 10px 15px;
+	display: inline-block;
+	border-radius: 18px;
+  	background-color: #E5F2F0;
+  	color: white;
+}
+.bottom {
+	display: inline-block;
+	float: left;
+}

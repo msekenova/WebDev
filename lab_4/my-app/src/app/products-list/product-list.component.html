@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="body">
+	<h1>Plush Toys</h1>
+	<div class="item" *ngFor="let product of products">
+		<h3 class="name">
+			<a class="name" [title]="product.name + ' details in Amazon'" [href]="product.link" target="_blank">
+				{{ product.name }}
+			</a>
+		</h3>
+		<img class="photo" [src]="product.photo" height="200">
+		<p id="description">
+			{{ product.description }}
+		</p>
+		<div class="bottom">
+			<ngb-rating [title]="product.rating"  *ngIf="product.rating" [max]="5" [rate]="product.rating" [readonly]="true"></ngb-rating>
+			<button id="button" (click)="share(product.link)">Share</button>
+		</div>
+		
+	</div>	
+</div>
