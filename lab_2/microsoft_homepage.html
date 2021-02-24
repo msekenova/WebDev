@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Microsoft Homepage</title>
+	<style>
+		body {
+			margin: 0;
+			font-size: 15px;
+			font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+			background-color: #ffffff;
+			padding: 0 65px 0 65px;
+		}
+		button {
+			text-decoration: none;
+			padding: 0;
+			border: none;
+			background: none;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		.header-1 {
+			margin-top: 10px; 
+			height: 65px;
+			font-size: 13px;
+			display: inline-block;
+			width: 100%;
+		}
+		.header-list {
+			float: left;
+		}
+		.list {
+			float: right;
+			text-decoration: none;
+			list-style-type: none;
+		}
+		.img {
+			float: left;
+		}
+		li {
+			display: inline;
+		}
+		.header-button-link {
+			text-decoration: none;
+			color: black;
+			margin-right: 20px;
+		}
+		.right-side {
+			max-width: 350px;
+			float: right;
+			display: inline-block;
+		}
+		.other-buttons{
+			float: right;
+			display: inline;
+		}
+		.all-ms {
+			float: left;
+			padding: 12px 20px 20px 18px;
+		}
+		.cart-button {
+			margin-top: 5px;
+		}
+		.search-button {
+			margin-bottom: 5px;
+			padding-bottom: 5px;
+		}
+		.bottom-picture {
+			float: left;
+  			width: 23%;
+  			padding: 10px;
+		}
+		.bottom::after{
+			content: "";
+  			clear: both;
+  			display: table;
+		}
+		.main {
+			position: absolute;
+			z-index: 1;
+			max-width: 440px;
+    		top: 35%;
+    		transform: translateX(25%);
+		}
+		.title-in-main-body {
+			font-weight: 600;
+			font-size: 24px;
+		}
+		.people-button{
+			padding-top: 10px;
+		}
+		.button-in-main-body {
+			background-color: black;
+			color: white;
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 24px;
+			border: 2px solid transparent;
+			text-align: center;
+			padding: 10px 20px;
+			text-decoration: none;
+		}
+		.bottom-link {
+			text-decoration: none;
+			color: #0067b8;
+			font-weight: 600;
+		}
+	</style>
+</head>
+<body>
+	<div class = "header-1">
+		<div class="header-list">
+			<ul class="list">
+				<li><a class="header-button-link" href="https://www.microsoft.com/en-gb/microsoft-365?rtc=1">Microsoft 365</a></li>
+				<li><a class="header-button-link" href="https://www.microsoft.com/en-gb/microsoft-365/microsoft-office?rtc=1">Office</a></li>
+				<li><a class="header-button-link" href="https://www.microsoft.com/en-gb/windows/">Windows</a></li>
+				<li><a class="header-button-link" href="https://www.microsoft.com/en-gb/surface">Surface</a></li>
+				<li><a class="header-button-link" href="https://www.xbox.com/ru-RU/">Xbox</a></li>
+				<li><a class="header-button-link" href="https://www.microsoft.com/en-gb/store/b/sale">Deals</a></li>
+				<li><a class="header-button-link" href="https://support.microsoft.com/en-gb">Support</a></li>
+			</ul>
+			<div class="img"><a href=""><img src="photos/ms.jpg" alt="Microsoft Logo" width="130"></a></div>
+		</div>
+		<div class="right-side">
+			<div class="all-ms">
+			<button class="all-ms-button"><a href="">All Microsoft</a></button>
+		</div>
+		<div class="other-buttons">
+			<button class="search-button"><a href=""><img src="photos/ms-search.png" alt= "search" width="24"></a></button>
+			<button class="cart-button"><a href="https://www.microsoft.com/ru-ru/store/cart"><img src="photos/cart.jpg" alt="cart" width="40"></a></button>
+			<button class="pa-button"><a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&rver=7.3.6963.0&wp=MBI_SSL&wreply=https%3a%2f%2fwww.microsoft.com%2fru-ru%2f&lc=1049&id=74335&aadredir=1"><img src="photos/chelovek.jpg" alt="personal information" width="32"></a></button>
+		</div>
+		</div>
+		
+	</div>
+	<div class="main-body">
+		<div class="main">
+			<h2 class="title-in-main-body">Microsoft 365</h2>
+			<p class="txt-in-main-body">Premium Office apps, extra cloud storage, advanced security, and more - all in one convinient subscription.</p>
+			<button class="people-button"><a class="button-in-main-body" href="https://www.microsoft.com/en-gb/microsoft-365/p/microsoft-365-family/cfq7ttc0k5dm?icid=mscom_marcom_H1a_M365Family&activetab=pivot%3aoverviewtab">For up to 6 people ></a></button>
+		</div>
+		<a href="https://www.microsoft.com/en-gb/microsoft-365/p/microsoft-365-family/cfq7ttc0k5dm?icid=mscom_marcom_H1a_M365Family&activetab=pivot%3aoverviewtab"><img src="photos/microsoft-main.png" width="100%"></a>
+	</div>
+	<div class="bottom">
+		<div class="bottom-picture">
+			<a href="https://www.microsoft.com/en-gb/microsoft-teams/group-chat-software?icid=mscom_marcom_CPW3a_Teams">
+				<img src="photos/bottom1.png" width="100%">
+				<h2>Microsoft Teams</h2>
+				<p>Chat, meet, call and collaborate.</p>
+				<a class = "bottom-link" href="https://www.microsoft.com/en-gb/microsoft-teams/group-chat-software?icid=mscom_marcom_CPW3a_Teams">Learn more ></a>
+			</a>
+		</div>
+		<div class="bottom-picture">
+			<a href="https://www.microsoft.com/ru-ru/edge?form=MI13F3&OCID=MI13F3">
+				<img src="photos/bottom2.png" width="100%">
+				<h2>Microsoft Edge</h2>
+				<p>Amazing performance, more privacy, productivity, and added value.</p>
+				<a class = "bottom-link" href="https://www.microsoft.com/ru-ru/edge?form=MI13F3&OCID=MI13F3">Install ></a>
+			</a>
+		</div>
+		<div class="bottom-picture">
+			<a href="https://www.microsoft.com/ru-ru/microsoft-365/onedrive/online-cloud-storage?icid=mscom_marcom_CPH2a_OneDrive">
+				<img src="photos/bottom3.png" width="100%">
+				<h2>Microsoft OneDrive</h2>
+				<p>Save your files and photos to OneDrive so they can be accessed from any device, anywhere.</p>
+				<a class = "bottom-link" href="https://www.microsoft.com/ru-ru/microsoft-365/onedrive/online-cloud-storage?icid=mscom_marcom_CPH2a_OneDrive">Learn more ></a>
+			</a>
+		</div>
+		<div class="bottom-picture">
+			<a href="https://www.microsoft.com/ru-ru/windows/features?icid=mscom_marcom_CPH3a_Windows10&activetab=feature-pivot%3aprimaryr2">
+				<img src="photos/bottom4.png" width="100%">
+				<h2>Windows 10 update</h2>
+				<p>By providing new features to help you get more done, communicate more often, and save time.</p>
+				<a class = "bottom-link" href="https://www.microsoft.com/ru-ru/windows/features?icid=mscom_marcom_CPH3a_Windows10&activetab=feature-pivot%3aprimaryr2">Learn more ></a>
+			</a>
+		</div>
+	</div>
+</body>
+</html>
