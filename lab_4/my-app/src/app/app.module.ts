@@ -5,6 +5,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './products-list/product-list.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProductItemComponent } from './product-item/product-item.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   ],
   declarations: [
     AppComponent,
-    ProductListComponent
+    ProductListComponent,
+    ProductItemComponent
   ],
   bootstrap: [
     AppComponent

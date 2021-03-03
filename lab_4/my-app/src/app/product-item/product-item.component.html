@@ -1,0 +1,14 @@
+<h3 class="name">
+			<a class="name" [title]="product.name + ' details in Amazon'" [href]="product.link" target="_blank">
+				{{ product.name }}
+			</a>
+</h3>
+<img class="photo" [src]="product.photo" height="200">
+<p id="description">
+	{{ product.description }}
+</p>
+<p id = "like">&hearts;
+    {{ product.like }} 
+</p>
+<ngb-rating [title]="product.rating"  *ngIf="product.rating" [max]="5" [rate]="product.rating" [readonly]="true"></ngb-rating>
+
