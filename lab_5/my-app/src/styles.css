@@ -1,0 +1,119 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+	margin: 10px;
+	padding: 0;
+	background-color: #ffffff;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#name {
+	background-color: #E5F2F0;
+	padding: 10px;
+	font-size: 50px;
+
+}
+#category_name {
+	padding: 10px;
+	font-size: 30px;
+	background-color:lavenderblush;
+}
+.photo {
+	margin: 0 0 0 25px;
+	padding: 10px;
+}
+.item {
+  	width: 40%;
+  	float: left;
+  	height: 400px;
+  	margin: 40px 40px 0;
+}
+a {
+	text-decoration: none;
+}
+.name {
+	margin: 0 25px;
+	padding: 5px;
+	font-size: 24px;
+	color: #aca9d2;
+}
+
+#description {
+	margin: 0 25px;
+	padding: 10px;
+	height: 50px
+}
+#like {
+	margin: 0 20px 0 50px;
+	padding: 5px;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	color:crimson;
+	border-radius: 4px;
+}
+#rating {
+	font-size: 20px;
+	margin: 0 20px 0 50px;
+	padding: 10px;
+	display: inline-block;
+	color: #FFD700;
+	border-color: #4c4000;
+
+}
+ngb-rating  {
+	color: #FFD700;
+	font-size:24px;
+	margin: 5px 25px;
+	padding: 10px;
+	border-color: #ffffff;
+}
+ #share {
+	margin: 0 25px;
+	padding: 10px 15px; 
+	display: inline-block;
+	border-radius: 18px;
+	background-color: white; 
+	color: black;
+	border: 2px solid #E5F2F0; 
+}
+ #share:hover {
+	margin: 0 25px;
+	padding: 10px 15px;
+	display: inline-block;
+	border-radius: 18px;
+  	background-color: #E5F2F0;
+  	color: white;
+}
+#Like {
+	margin: 0 25px;
+	padding: 10px 15px; 
+	display: inline-block;
+	border-radius: 18px;
+	background-color: white; 
+	color: black;
+	border: 2px solid #ffb4b4; 
+}
+ #Like:hover {
+	margin: 0 25px;
+	padding: 10px 15px;
+	display: inline-block;
+	border-radius: 18px;
+  	background-color: #ffb4b4;
+  	color: white;
+}
+#remove {
+	margin: 0 25px;
+	padding: 10px 15px; 
+	display: inline-block;
+	border-radius: 18px;
+	background-color: white; 
+	color: black;
+	border: 2px solid maroon; 
+}
+ #remove:hover {
+	margin: 0 25px;
+	padding: 10px 15px;
+	display: inline-block;
+	border-radius: 18px;
+  	background-color:maroon;
+  	color: white;
+}

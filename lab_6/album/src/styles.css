@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    background-color: #ffa8ae;
+    font-family: Serif;
+}
+body {
+    margin: 50px;
+    background-color: #ffa8ae;
+}
+button {
+    padding: 10px;
+    margin: 10px;
+}
+ ul li{
+    border-radius: 4px;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 18px;
+    background: #FACED1;
+    padding: 12px 8px 12px;
+    position: relative;
+}
+ ul li:nth-child(even) {
+    background: #FFE4E1;
+    margin: 5px 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.close {
+    margin: 0 5px;
+    position: absolute;
+    right: 3.4px;
+    padding: 3px 12px 3px 12px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+::placeholder {
+    color: #ffe8e9;
+}
+.addAlbum {
+    width: 20%;
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 4px;
+	border-color: #ff707a;
+	background-color: #ff707a;
+	color: white;
+}
