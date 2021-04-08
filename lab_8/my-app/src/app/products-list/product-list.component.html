@@ -1,0 +1,20 @@
+<h2 id="name">Plush Toys</h2>
+
+<div *ngFor="let category of products" class="category">
+
+  <p (click)="categoryPressed(category.category_id)" id="category_name">{{category.category_name}}</p>
+
+  <div *ngIf="category.display_flag">
+    <div *ngFor="let product of category.items" class="product">
+
+      <app-product-item [product]="product"></app-product-item>
+
+      <button id="share" (click)="share(product.link, product.name)">Share</button>
+      <button id="Like" (click)="like(category.category_id, product.id)">Like</button>
+      <button id="remove" (click)="delete(category.category_id, product.id)">Remove</button>
+    
+      <hr>
+    </div>
+  </div>
+
+</div>
